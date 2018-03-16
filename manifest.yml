@@ -1,8 +1,7 @@
 ---
 applications:
-- name: bustrack
-  memory: 512M
+- name: trackbus
+  memory: 256M
   host: bustrack
   domain: eu-gb.mybluemix.net
-  services:
-  - ClearDB Managed MySQL Database-2o
+  buildpack: https://trackbus.eu-gb.mybluemix.net

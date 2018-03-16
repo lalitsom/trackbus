@@ -17,17 +17,17 @@ import com.ibm.model.RegModel;
 public class CABDAO {
 
 	
-	//public static String drivername="com.mysql.jdbc.Driver";
-	//public static String url="jdbc:mysql://localhost:3306/track";
-	//public static String username="root";
-	//public static String password="";
-	
-	
-	
 	public static String drivername="com.mysql.jdbc.Driver";
-	public static String url="jdbc:mysql://eu-cdbr-sl-lhr-01.cleardb.net:3306/ibmx_bdf80219d95cb55";
-	public static String username="b3fe4ceb1069ca";
-	public static String password="ea90b5c0";
+	public static String url="jdbc:mysql://sql12.freemysqlhosting.net:3306/sql12227019";
+	public static String username="sql12227019";
+	public static String password="nI6Fj4TIry";
+	
+	
+	
+//	public static String drivername="com.mysql.jdbc.Driver";
+//	public static String url="jdbc:mysql://eu-cdbr-sl-lhr-01.cleardb.net:3306/ibmx_bdf80219d95cb55";
+//	public static String username="b3fe4ceb1069ca";
+//	public static String password="ea90b5c0";
 	
 	public static Connection con=null;
 	public BufferedReader br;
