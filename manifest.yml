@@ -1,0 +1,8 @@
+---
+applications:
+- name: bustrack
+  memory: 512M
+  host: bustrack
+  domain: eu-gb.mybluemix.net
+  services:
+  - ClearDB Managed MySQL Database-2o
